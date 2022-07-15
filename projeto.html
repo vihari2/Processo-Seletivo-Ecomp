@@ -17,128 +17,141 @@
     </head>
   <body>
     
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-between align-items-center">        
+            <h1 class="fs-4">Portifolio X</h1>
 
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col">Portifolio X</div>
-                <div class="col">About</div>
-                <div class="col">Portifolio</div>
-                <div class="col">Contact</div>
-                <div class="col">Pages</div>
-                <div class="col">Shop</div>
-            </div>
-
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link link-dark" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link link-dark" href="#">Portifolio</a></li>
+                <li class="nav-item"><a class="nav-link link-dark" href="">Contact</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle link-dark" href="#">Pages</a>
+                    <ul class="dropdown-menu"><li>...</li></ul>
+                </li>
+                <li class="nav-item"><a class="nav-link link-dark" href="#">Shop</a></li>
+            </ul>        
+        </header>
+        
+        <main>
+            <!-- Jumbotron -->
             <div class="row">
                 <div class="col p-5">
                     <img class="img-fluid" src="foto1.jpg" alt="foto">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col">
+            <!-- Foto 1 -->
+            <div class="d-flex align-items-center" style="height: 300px;">
+                <div class="col-5 offset-1">
                     <h2>The story behind my work as a designer</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam amet quam quis et. Non amet vitae arcu fames posuere.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class='col'>
+            <!-- Foto 2 -->
+            <div class="d-flex align-items-center">
+                <div class="col-5 offset-6">
                     <h2>My mission in the design industry</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam amet quam quis et. Non amet vitae arcu fames posuere.</p>
                 </div>
             </div>
 
-            <div>
-                <h2>Past Experience</h2><p><a href="#">Browser full resume</a></p>
-                <div class="row">
-                    <div class="col">
-                        <p>Facebook - 2022 / 2023</p>
-                        <h3>Senior Product Designer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
-                    <div class="col">
-                        <p>Youtube - 2020 / 2021</p>
-                        <h3>Lead of Mobile Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
+            <!-- Past Experiencie -->
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
+                <h2>Past Experience</h2>
+                <p><a class="link-dark text-decoration-none" href="#">Browser full resume <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/></svg> </a></p>
+            </div>
+            <div class="row">
+                <div class="col border-top m-3 p-3">
+                    <p class="fw-bold text-muted">Facebook - 2022 / 2023</p>
+                    <h3 class="fw-bold">Senior Product Designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p>Twitter - 2020 / 2021</p>
-                        <h3>Head of UX Engineering</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
-                    <div class="col">
-                        <p>Twitch - 2022 2023</p>
-                        <h3>Mobile UI/UX Designer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
+                <div class="col border-top m-3 p-3">
+                    <p class="fw-bold text-muted">Youtube - 2020 / 2021</p>
+                    <h3 class="fw-bold">Lead of Mobile Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border-top border-bottom m-3 p-3 pt-4">
+                    <p class="fw-bold text-muted">Twitter - 2020 / 2021</p>
+                    <h3 class="fw-bold">Head of UX Engineering</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
+                </div>  
+                <div class="col border-top border-bottom m-3 p-3 pt-4">
+                    <p class="fw-bold text-muted">Twitch - 2022 / 2023</p>
+                    <h3 class="fw-bold">Mobile UI/UX Designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                 </div>
             </div>
 
-            <div>
-                <h2>The core values that drive my work</h2>
+            <hr class="mt-6 mb-6">
 
-                <div class="row">
-                    <div class="col">
-                        <h3>Hard Work</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
-                    <div class="col">
-                        <h3>Transparency</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
+            <!--Quadrado 1-->
+            <h2 clas="col-6">The core values that drive my work</h2>
+
+            <div class="row">
+                <div class="col border-top m-3 p-3">
+                    <h3>Hard Work</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h3>Innovation</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
-                    <div class="col">
-                        <h3>Growth</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
-                    </div>
+                <div class="col border-top m-3 p-3">
+                    <h3>Transparency</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border-top border-bottom m-3 p-3">
+                    <h3>Innovation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
+                </div>
+                <div class="col border-top border-bottom m-3 p-3">
+                    <h3>Growth</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                 </div>
             </div>
 
+            <!---Quadrado 2-->
+            <hr>
             <div>
-                <h2>The core values that drive my work</h2>
+                <h2 class="col-6 offset-3 text-center">The core values that drive my work</h2>
 
                 <div class="row">
-                    <div class="col">
-                        <p>1</p>
+                    <div class="col border-end border-bottom p-6">
+                        <p class="fw-bold">1</p>
                         <h3>Hard Work</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
 
-                    <div class="col">
-                        <p>2</p>
+                    <div class="col border-bottom p-6">
+                        <p class="fw-bold">2</p>
                         <h3>Transparency</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
 
-                    <div class="col">
-                        <p>3</p>
+                    <div class="col border-start border-bottom p-6">
+                        <p class="fw-bold">3</p>
                         <h3>Innovation</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <p>4</p>
+                    <div class="col border-end border-top p-6">
+                        <p class="fw-bold">4</p>
                         <h3>Growth</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
 
-                    <div class="col">
-                        <p>5</p>
+                    <div class="col border-top p-6">
+                        <p class="fw-bold">5</p>
                         <h3>Team Work</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
 
-                    <div class="col">
-                        <p>6</p>
+                    <div class="col border-start border-top p-6">
+                        <p class="fw-bold">6</p>
                         <h3>Excellence</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus non lectus egestas tempor.</p>
                     </div>
@@ -178,7 +191,7 @@
                             </ul>
                         </div>
                         <div class="col">
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li><a href="#">Blog V1</a></li>
                                 <li><a href="#">Blog V2</a></li>
                                 <li><a href="#">Blog V3</a></li>
@@ -188,7 +201,7 @@
                             </ul>
                         </div>
                         <div class="col">
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li><a href="#">Portfolio</a></li>
                                 <li><a href="#">Case study</a></li>
                                 <li><a href="#">Past Clients</a></li>
@@ -201,15 +214,18 @@
                 <div class="col">
                     <h4>Utility Pages</h4>
                     <ul>
-                        <li><a href="#">Start Here</a></li>
-                        <li><a href="#">Style Guide</a></li>
-                        <li><a href="#">404 Not Found</a></li>
-                        <li><a href="#">Password Protect</a></li>
-                        <li><a href="#">Licenses</a></li>
-                        <li><a href="#">Changelog</a></li>
+                        <li><a class="nav-link" href="#">Start Here</a></li>
+                        <li><a class="nav-link" href="#">Style Guide</a></li>
+                        <li><a class="nav-link" href="#">404 Not Found</a></li>
+                        <li><a class="nav-link" href="#">Password Protect</a></li>
+                        <li><a class="nav-link" href="#">Licenses</a></li>
+                        <li><a class="nav-link" href="#">Changelog</a></li>
                     </ul>
                 </div>
             </div>
+        </main>
+
+        <footer>
             <div class="row">
                 <div class="col">
                     <p>Copyright © Portfolio | Designed by <a href="#">BRIX Templates</a> - Powered by Webflow</p>
@@ -225,8 +241,9 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </main>
+        </footer>
+    </div>
+    
 
 
 
