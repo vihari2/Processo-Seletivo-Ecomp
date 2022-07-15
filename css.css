@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'core_sans_g45_regular';
+    src: url('fonte/core-sans-g-45-regular-webfont.woff2') format('woff2'),
+         url('fonte/core-sans-g-45-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:  'core_sans_g45_regular';
+}
+
+#foto1 {
+    background-image: url('foto1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+}
+
+#foto2 {
+    background-image: url('foto2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 450px;
+}
+
+
+
+
+
