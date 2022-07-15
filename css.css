@@ -26,6 +26,37 @@ body {
     height: 450px;
 }
 
+#face {
+    color: #4267B2;
+}
+
+#yt {
+    color: #FF0000;
+}
+
+#twitter {
+    color: #1DA1F2;
+}
+
+#twitch {
+    color: #6441a5;
+}
+
+#hw {
+    color: #ff4530;
+}
+
+#tp {
+    color: #6ce76b;
+}
+
+#in {
+    color: #fdd02c;
+}
+
+#gr {
+    color: #5d43fe;
+}
 
 
 
